@@ -6,6 +6,7 @@ import { formattedDate } from "@/lib/utils";
 import {
   Dialog,
   DialogContent,
+  DialogDescription,
   DialogHeader,
   DialogTitle,
   DialogTrigger,
@@ -21,11 +22,11 @@ const MoreDetails = ({ project }) => {
       <p>
         <span className={emph}>My role </span>: {project.role}
       </p>
-      <div className="flex items-center gap-2">
+      <div className="flex items-center flex-wrap gap-2">
         <span className={emph}>Tools </span>:
         {project.tools.map((t,i) => {
           return (
-            <div key={i} className="flex items-center gap-2 p-2 border border-foreground px-3 rounded justify-between">
+            <div key={i} className="flex items-center gap-2 p-2 border border-foreground px-3 rounded  text-sm justify-between">
               <p>{t.title}</p>
               <Image
                 key={t._id}
@@ -38,7 +39,6 @@ const MoreDetails = ({ project }) => {
           );
         })}
       </div>
-      {/* Don't foreget contributers */}
       {project.contributers && 
       <div>
         <span className={emph}>Contributers </span>:
@@ -53,7 +53,7 @@ const MoreDetails = ({ project }) => {
               <p>{f}</p>
               <img src={spec} />
             </div>
-          );
+          )
         })}
       </div>
     </div>
@@ -93,6 +93,7 @@ const ProjectBlock = ({ project }) => {
             <DialogContent className="max-h-[70%] overflow-scroll">
               <DialogHeader>
                 <DialogTitle>{project.title}</DialogTitle>
+                <DialogDescription>...</DialogDescription>
               </DialogHeader>
               <MoreDetails project={project} />
             </DialogContent>
