@@ -13,7 +13,7 @@ import {
 } from "./ui/dialog";
 import Image from "next/image";
 const MoreDetails = ({ project }) => {
-  const emph = "text-[#fa913c] text-lg";
+  const emph = "text-[#fa913c] text-sm";
   return (
     <div className="flex flex-col gap-3 overflow-scroll">
       <p>
@@ -63,11 +63,11 @@ const ProjectBlock = ({ project }) => {
   return (
     <div className="flex gap-2 shadow-[5px_5px_0px_0px_rgba(250,_145,_60,_1)] w-[50%] h-48 md:h-40 border border-foreground rounded-md ">
       <div className="flex flex-col gap-1 p-3">
-        <h1 className="text-xl">{project.title}</h1>
-        <h1 className="text-md">{project.type}</h1>
+        <h1 className="text-md">{project.title}</h1>
+        <h1 className="text-sm">{project.type}</h1>
         <p className="">{formattedDate(project.date)}</p>
 
-        <div className="flex text-md gap-2 items-center">
+        <div className="flex text-sm gap-2 items-center">
           Resources :
           <a
             href={project.gitLink}

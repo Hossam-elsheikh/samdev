@@ -7,7 +7,7 @@ export default function Home() {
   const emphisize = "text-orange-400 italic";
   return (
     <div>
-      <h1 className="text-xl">
+      <h1 className="text-sm md:text-md">
         My name is <span className={emphisize}>Hossam Elsheikh</span>, and I’m a
         28-year-old <span className={emphisize}>software engineer </span>. As a
         dedicated self-learner, I’ve followed the path of computer science
@@ -21,7 +21,7 @@ export default function Home() {
         <span className={emphisize}>high-quality</span> solutions.
       </h1>
       <br />
-      <div className="flex gap-3 items-center text-md md:text-xl">
+      <div className="flex gap-3 items-center text-sm md:text-md">
         <h1>Reach me at :</h1>
         <div className="flex gap-2">
           <a href="https://github.com/Hossam-elsheikh" target="_blank" className="hover:scale-105 transition-all duration-200">
