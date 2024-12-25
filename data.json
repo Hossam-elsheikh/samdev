@@ -1,0 +1,519 @@
+{
+  "Details": {
+    "brief": "Junior Front-End Developer with a proven ability to collaborate effectively with senior developers while spending extra time to be mentored. Enjoy working closely with team members to ensure workloads are effectively redirected to bottlenecks and personally picking up the slack when necessary. With a passion for both personal growth and for software development, I attended a 1000+ hour coding bootcamp to learn new languages while sharpening existing skills. ",
+    "courses": [
+      {
+        "date": "15th Nov 2023",
+        "description": "I've Completed an intensive MEARN Full stack course in ITI Sohaj-Egypt, and we build Walmart clone as a final Project.",
+        "link": "#",
+        "organization": "ITI",
+        "title": "ITI Intensive MEARN Course",
+        "topics": [
+          "OS Fundamentals",
+          "Network Fundamentals",
+          "Database Fundamentals",
+          "JavaScript Fundamentals",
+          "HTML5 & CSS3",
+          "ES.Next",
+          "RWD Fundamentals",
+          "Bootstrap Fundamentals",
+          "JavaScript Unit Testing & TDD Technique",
+          "JavaScript Design Patterns",
+          "UI/UX Fundamentals",
+          "Node.js Fundamentals",
+          "MongoDB",
+          "TypeScript Fundamentals",
+          "Angular Fundamentals",
+          "React JS",
+          "Version Control (git & github)",
+          "Secure Coding",
+          "Web Tooling and Optimization (gulp & webpack)",
+          "PWA & Service Workers",
+          "CloudPlatforms"
+        ]
+      },
+      {
+        "date": "2nd Mar 2023",
+        "description": "I've Completed a React.js Full Course on Udemy, Presented By Maximilian Schwarzmüller.",
+        "link": "https://udemy-certificate.s3.amazonaws.com/image/UC-3bb3c897-01ca-46e3-a5dd-7366acd42bfa.jpg?v=1679933047000",
+        "organization": "Udemy",
+        "title": "React - The Complete guide",
+        "topics": [
+          "React basics",
+          "React Hooks",
+          "Redux & Redux toolkit",
+          "SPA with react router",
+          "React Query",
+          "Animating React App",
+          "Testing React Apps",
+          "React ts",
+          "Next js"
+        ]
+      }
+    ],
+    "currentJobTitle": "Frontend Web developer",
+    "cvLink": "https://drive.google.com/file/d/12sy3JoKKIuCY5RUWgqKYx9i1VtOzFeka/view?usp=drive_link",
+    "links": [
+      {
+        "icon": "fa-brands fa-github",
+        "title": "GitHub",
+        "url": "https://github.com/Hossam-elsheikh"
+      },
+      {
+        "icon": "fa-brands fa-linkedin",
+        "title": "Linkedin",
+        "url": "https://www.linkedin.com/in/hossam-elsheikh-5459a1166/"
+      },
+      {
+        "icon": "fa-brands fa-facebook",
+        "title": "Facebook",
+        "url": "https://www.facebook.com/hossam.elshie5"
+      },
+      {
+        "icon": "fa-solid fa-envelope",
+        "title": "Gmail",
+        "url": "mailto:hossam.m.elsheikh@gmail.com"
+      }
+    ],
+    "picLink": "https://i.ibb.co/L9dz7Sp/Asset-1.png",
+    "skills": {
+      "have": [
+        {
+          "icon": "fa-brands fa-html5",
+          "title": "Html5"
+        },
+        {
+          "icon": "fa-brands fa-css3",
+          "title": "CSS"
+        },
+        {
+          "icon": "fa-brands fa-js",
+          "title": "JavaScript"
+        },
+        {
+          "icon": "fa-brands fa-sass",
+          "title": "SASS"
+        },
+        {
+          "icon": "fa-brands fa-bootstrap",
+          "title": "Bootstrap"
+        },
+        {
+          "icon": "fa-brands fa-react",
+          "title": "React.js"
+        },
+        {
+          "icon": "fa-brands fa-figma",
+          "title": "Figma"
+        },
+        {
+          "icon": "https://seeklogo.com/images/M/mui-logo-56F171E991-seeklogo.com.png",
+          "title": "Material UI"
+        },
+        {
+          "icon": "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/pwa-icon.png",
+          "title": "PWA"
+        },
+        {
+          "icon": "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/tailwind-css-icon.png",
+          "title": "Tailwind"
+        },
+        {
+          "icon": "fa-brands fa-node-js",
+          "title": "Node.js"
+        },
+       
+        {
+          "icon": "fa-solid fa-database",
+          "title": "MongoDB"
+        },
+        {
+          "icon": "fa-brands fa-uikit",
+          "title": "uikit"
+        }
+      ],
+      "learning": [
+        {
+          "icon": "fa-brands fa-uikit",
+          "title": "uikit"
+        }
+      ]
+    },
+    "workExperiences": [
+      {
+        "description": "",
+        "endDate": "",
+        "orgLinkedin": "",
+        "organization": "",
+        "position": "",
+        "startDate": ""
+      }
+    ]
+  },
+  "projects": [
+    {
+      "dateCreated": "11th Jul 2024",
+      "dateUpdated": "14th Oct 2024",
+      "description": "Pharma Solutions is a comprehensive e-commerce platform designed to provide a smooth, secure, and user-friendly experience for purchasing medicines and medical supplies online. The website offers customers access to a vast selection of pharmaceutical products, including prescription medications, over-the-counter drugs, vitamins, and health supplements, all with convenient and efficient navigation.",
+      "featured": true,
+      "framework": "Next.js",
+      "gitLink": "https://github.com/Hossam-elsheikh/drug-store",
+      "id": 1,
+      "keyFeatures": [
+        "Users can create an account or log in securely to access personalized features. Once logged in, they can manage their profile, view their order history, and save their favorite products for easy access later.",
+        "Pharma Solutions makes it simple to explore the extensive catalog by category or search function. Users can add items they like to their Favorites, allowing them to easily track products they may want to purchase in the future.",
+        "The platform offers a user-friendly shopping cart, allowing users to add multiple products, adjust quantities, and review their selections before proceeding to checkout.",
+        "Pharma Solutions integrates MyFatoorah as its payment gateway, providing users with a smooth, secure, and reliable payment experience. During checkout, users can choose from a range of payment options supported by MyFatoorah, making it easy for them to complete their purchase.",
+        "After placing an order, users can track the status of their shipment through their account dashboard. This feature provides real-time updates on order progress, from processing to dispatch and delivery."
+      ],
+      "livePreview": "https://pharmasolutionskw.com/en",
+      "projectIcon": "",
+      "specs": [
+        {
+          "description": "User-friendly Homepage",
+          "gif": "https://s1.gifyu.com/images/SyIr4.gif"
+        },
+        {
+          "description": "Smooth navigation",
+          "gif": "https://s1.gifyu.com/images/SyIr6.gif"
+        },
+        {
+          "description": "Favorites and Arabic Localization",
+          "gif": "https://s1.gifyu.com/images/SyIrn.gif"
+        },
+        {
+          "description": "Search and Customer Review",
+          "gif": "https://s11.gifyu.com/images/SyIrW.gif"
+        },
+        {
+          "description": "Great Purchasing Experience",
+          "gif": "https://s11.gifyu.com/images/SyIru.gif"
+        },
+        {
+          "description": "signing up/in",
+          "gif": "https://s1.gifyu.com/images/SyIrm.gif"
+        },
+        {
+          "description": "Payment",
+          "gif": "https://s11.gifyu.com/images/SyIrv.gif"
+        },
+        {
+          "description": "Tracking Order",
+          "gif": "https://s1.gifyu.com/images/SyIrQ.gif"
+        }
+
+        
+      ],
+      "title": "Pharma Solutions",
+      "tools": [
+        {
+          "faIcon": false,
+          "icon": "https://img.icons8.com/fluent-systems-filled/200/FFFFFF/nextjs.png",
+          "title": "NEXT.js"
+        }
+       
+      ],
+      "type": "e-commerce"
+    },
+    {
+      "dateCreated": "26th Feb 2023",
+      "dateUpdated": "5th Apr 2023",
+      "description": "This admin dashboard allows at-a-glance access to the crucial information for the specific needs of a particular professional or a team, providing users with a comprehensive overview of the key data, reports, KPIs, etc., and enable drilling down to more details if required.",
+      "featured": true,
+      "framework": "React.js",
+      "gitLink": "https://github.com/Hossam-elsheikh/Admin-Dashboard",
+      "id": 1,
+      "keyFeatures": [
+        "customized charts",
+        "well organized tables",
+        "easy profile accessibility tools",
+        "in progress : Planer Manager",
+        "in progress: Profits Analysis"
+      ],
+      "livePreview": "https://global-admin-3ad57.web.app/",
+      "projectIcon": "",
+      "specs": [
+        {
+          "description": "Appealing interface with Charts",
+          "gif": "https://github.com/Hossam-elsheikh/Admin-Dashboard/raw/master/gifs/ezgif.com-video-to-gif.gif"
+        },
+        {
+          "description": "Advanced Table Filtering",
+          "gif": "https://github.com/Hossam-elsheikh/Admin-Dashboard/raw/master/gifs/ezgif.com-video-to-gif%20(1).gif"
+        },
+        {
+          "description": "Dark Mode",
+          "gif": "https://github.com/Hossam-elsheikh/Admin-Dashboard/raw/master/gifs/ezgif.com-video-to-gif%20(2).gif"
+        }
+      ],
+      "title": "Admin Dashboard",
+      "tools": [
+        {
+          "faIcon": true,
+          "icon": "fa-react",
+          "title": "React js"
+        },
+        {
+          "faIcon": false,
+          "icon": "https://www.svgrepo.com/show/354262/react-router.svg",
+          "title": "React router DOM"
+        },
+        {
+          "faIcon": false,
+          "icon": "https://www.chartjs.org/img/chartjs-logo.svg",
+          "title": "chart js"
+        },
+        {
+          "faIcon": false,
+          "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Font_Awesome_logomark_blue.svg/1200px-Font_Awesome_logomark_blue.svg.png",
+          "title": "fontAwesome"
+        },
+        {
+          "faIcon": true,
+          "icon": "fa-sass",
+          "title": "sass"
+        }
+      ],
+      "type": "admin tools"
+    },
+    {
+      "dateCreated": "1st Jul 2023",
+      "dateUpdated": "5th Dec 2023",
+      "description": "This E-commerce Project is a Full stack MEARN project that i was working on whith my Team.",
+      "featured": true,
+      "framework": "React.js",
+      "gitLink": "https://github.com/Hossam-elsheikh/EzyBuy-user",
+      "id": 11,
+      "keyFeatures": [
+        "Buying products with PayPal and Visa",
+        "Browsing different categories",
+        "Arabic Localization",
+        "Tracking Orders",
+        "Adding To favorites"
+      ],
+      "livePreview": "https://ezy-buy-user.vercel.app/",
+      "partners": [
+        {
+          "linkedin": "https://www.linkedin.com/in/mahmoud-mohamed-ahmed/",
+          "name": "Mahmoud Mohamed",
+          "pic": "https://avatars.githubusercontent.com/u/50493125?v=4"
+        },
+        {
+          "linkedin": "https://www.linkedin.com/in/aya-shehata-81624b24a/",
+          "name": "Aya Shehata",
+          "pic": "https://avatars.githubusercontent.com/u/69397143?v=4"
+        }
+      ],
+      "projectIcon": "",
+      "specs": [
+        {
+          "description": "Home Page and Search for Products",
+          "gif": "https://s13.gifyu.com/images/SCldH.gif"
+        },
+        {
+          "description": "Buying a Product and Tracking order",
+          "gif": "https://s13.gifyu.com/images/SCldw.gif"
+        },
+        {
+          "description": "Filters and Localization",
+          "gif": "https://s13.gifyu.com/images/SCldE.gif"
+        }
+      ],
+      "title": "EzyBuy",
+      "tools": [
+        {
+          "faIcon": true,
+          "icon": "fa-react",
+          "title": "React js"
+        },
+        {
+          "faIcon": false,
+          "icon": "https://www.svgrepo.com/show/354262/react-router.svg",
+          "title": "React router DOM"
+        },
+        {
+          "faIcon": true,
+          "icon": "fa-language",
+          "title": "i18n"
+        },
+        {
+          "faIcon": false,
+          "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Font_Awesome_logomark_blue.svg/1200px-Font_Awesome_logomark_blue.svg.png",
+          "title": "fontAwesome"
+        },
+        {
+          "faIcon": true,
+          "icon": "fa-brands fa-bootstrap",
+          "title": "Bootstrap"
+        },
+        {
+          "faIcon": true,
+          "icon": "fa-brands fa-node-js",
+          "title": "Node.js"
+        },
+        {
+          "faIcon": true,
+          "icon": "fa-database",
+          "title": "MongoDB"
+        }
+      ],
+      "type": "E Commerce"
+    },
+    {
+      "dateCreated": "2nd Sep 2023",
+      "dateUpdated": "12th Sep 2023",
+      "description": "This is a simple Landing Page for Beauty center multi-trade E-commerce.",
+      "featured": false,
+      "framework": "NEXT.js",
+      "gitLink": "https://github.com/Hossam-elsheikh/Beauty-center",
+      "id": 12,
+      "keyFeatures": [
+        "Nice Home Layout",
+        "Fully Responsive Design",
+        "Great User Experience"
+      ],
+      "livePreview": "https://shop.beauty-t-center.com/#home",
+      "projectIcon": "",
+      "specs": [
+        {
+          "description": "Appealing interface",
+          "gif": "https://s13.gifyu.com/images/SClnW.gif"
+        },
+        {
+          "description": "Form with portaled Terms and Conditions sections",
+          "gif": "https://s13.gifyu.com/images/SCln8.gif"
+        }
+      ],
+      "title": "Beauty Center",
+      "tools": [
+        {
+          "faIcon": true,
+          "icon": "fa-react",
+          "title": "React js"
+        },
+        {
+          "faIcon": false,
+          "icon": "https://static-00.iconduck.com/assets.00/nextjs-icon-1024x617-rl2bcqfj.png",
+          "title": "NEXT.js"
+        },
+        {
+          "faIcon": false,
+          "icon": "https://www.svgrepo.com/show/354262/react-router.svg",
+          "title": "React router DOM"
+        },
+        {
+          "faIcon": false,
+          "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Font_Awesome_logomark_blue.svg/1200px-Font_Awesome_logomark_blue.svg.png",
+          "title": "fontAwesome"
+        },
+        {
+          "faIcon": true,
+          "icon": "fa-sass",
+          "title": "sass"
+        }
+      ],
+      "type": "Landing Page"
+    },
+    {
+      "dateCreated": "9th Apr 2023",
+      "dateUpdated": "11th May 2023",
+      "description": "This app lets you create update and delete notes and tasks efficiently and smoothly, with an appealing simple design. ",
+      "featured": false,
+      "framework": "React.js",
+      "gitLink": "https://github.com/Hossam-elsheikh/noter-app",
+      "id": 2,
+      "keyFeatures": [
+        "Creating, Updating and deleting Notes",
+        "Creating, Updating and deleting Tasks and Tasks Board",
+        "Search Notes by name or content",
+        "Changing notes background colors",
+        "in Progress : creating database"
+      ],
+      "livePreview": "https://noter-app-2053b.web.app/",
+      "partners": [
+        {
+          "linkedin": "https://www.linkedin.com/in/khaledmohamedram/",
+          "name": "Khaled Mohamed",
+          "pic": "https://media.licdn.com/dms/image/D4D03AQEKYvnUsGHFtQ/profile-displayphoto-shrink_400_400/0/1686135030955?e=1702512000&v=beta&t=DzBecfqu3fYpe8pteDKjn8fcExMhLfeJ0sjf1v2Zd8M"
+        }
+      ],
+      "projectIcon": "",
+      "specs": [
+        {
+          "description": "Creating a new note",
+          "gif": "https://github.com/Hossam-elsheikh/noter-app/raw/main/gifs/noter.gif"
+        },
+        {
+          "description": "Creating a new tasks board and adding tasks to it",
+          "gif": "https://github.com/Hossam-elsheikh/noter-app/raw/main/gifs/tasker.gif"
+        },
+        {
+          "description": "deleting with sweet alert confirmation",
+          "gif": "https://github.com/Hossam-elsheikh/noter-app/raw/main/gifs/delete.gif"
+        }
+      ],
+      "title": "Noter App",
+      "tools": [
+        {
+          "faIcon": true,
+          "icon": "fa-react",
+          "title": "React js"
+        },
+        {
+          "faIcon": false,
+          "icon": "https://www.svgrepo.com/show/354262/react-router.svg",
+          "title": "React router DOM"
+        },
+        {
+          "faIcon": false,
+          "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Font_Awesome_logomark_blue.svg/1200px-Font_Awesome_logomark_blue.svg.png",
+          "title": "fontAwesome"
+        },
+        {
+          "faIcon": true,
+          "icon": "fa-alert",
+          "title": "sweet alert 2"
+        }
+      ],
+      "type": "Productivity Tool"
+    },
+    {
+      "dateCreated": "1st Apr 2023",
+      "dateUpdated": "5th Apr 2023",
+      "description": "This is a simple landing page for Wacom One tablet.",
+      "featured": false,
+      "framework": "React.js",
+      "gitLink": "https://github.com/Hossam-elsheikh/Wacom-one",
+      "id": 4,
+      "keyFeatures": [
+        "Landing Page Clone for Wacom one"
+      ],
+      "livePreview": "https://wacom-one.web.app/",
+      "projectIcon": "",
+      "specs": [
+        {
+          "description": "Web Preview",
+          "gif": "https://github.com/Hossam-elsheikh/Wacom-one/raw/main/gifs/web.gif"
+        },
+        {
+          "description": "Mobile Preview",
+          "gif": "https://github.com/Hossam-elsheikh/Wacom-one/raw/main/gifs/mobile.gif"
+        }
+      ],
+      "title": "Wacom One",
+      "tools": [
+        {
+          "faIcon": true,
+          "icon": "fa-react",
+          "title": "React js"
+        },
+        {
+          "faIcon": false,
+          "icon": "https://www.svgrepo.com/show/354262/react-router.svg",
+          "title": "React router DOM"
+        }
+      ],
+      "type": "Landing Page"
+    }
+  ]
+}
