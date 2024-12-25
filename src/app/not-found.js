@@ -6,7 +6,7 @@ const NotFound = () => {
     <div style={{ textAlign: 'center', marginTop: '50px' }}>
       <h1>404</h1>
       <p>Page Not Found</p>
-      <Link href="/" style={{ textDecoration: 'none', color: 'blue' }}>
+      <Link href="/" className='text-xl text-blue-600' style={{ textDecoration: 'none'}}>
         Go Back Home
       </Link>
     </div>
