@@ -155,7 +155,7 @@ const ProjectForm = ({ formType, project, addEditProject }) => {
         />
         <div className="flex flex-col gap-2">
           <p>Tools</p>
-          <div className="flex gap-2">
+          <div className="flex gap-2 flex-wrap">
             {message && message}
             {tools?.map((option, index) => (
               <div className="flex gap-2" key={option._id}>

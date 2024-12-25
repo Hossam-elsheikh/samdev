@@ -60,7 +60,7 @@ const page = () => {
           {message && <p>{message}</p>}
           <hr />
           <h1 className="text-xl">Tools</h1>
-          <div className="flex gap-2">
+          <div className="flex gap-2 text-xs flex-wrap">
             {fetchMessage && fetchMessage}
             {skills?.map((skill, i) => (
               <div
@@ -69,7 +69,7 @@ const page = () => {
               >
                 <p>{skill.title}</p>
                 <Image
-                  width="40"
+                  width="20"
                   className="border  rounded-full"
                   height="100"
                   src={skill.svg}
