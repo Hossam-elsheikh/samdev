@@ -12,7 +12,6 @@ const Auth = () => {
   const submitHandler = (e) => {
     e.preventDefault();
     
-    console.log(typeof(process.env.NEXT_PUBLIC_ADMIN_SECRET),typeof(accessKey),accessKey);
     if (accessKey === process.env.NEXT_PUBLIC_ADMIN_SECRET) {
       setIsAuth(true);
     } else {
