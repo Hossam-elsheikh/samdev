@@ -28,7 +28,7 @@ const page = () => {
     fetchCourses();
   }, []);
   return (
-    <div className="flex gap-3">
+    <div className="flex gap-3 flex-wrap ">
       {loading && <p>Loading education details, please be patient ...</p>}
       {error && <p>{error}</p>}
       {fetchedCourses.map((course) => {

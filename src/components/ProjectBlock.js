@@ -64,7 +64,7 @@ const MoreDetails = ({ project }) => {
 };
 const ProjectBlock = ({ project }) => {
   return (
-    <div className="flex gap-2 shadow-[5px_5px_0px_0px_rgba(250,_145,_60,_1)] w-1/2 md:w-1/3  md:h-40 border border-foreground rounded-md ">
+    <div className="flex gap-2 shadow-[5px_5px_0px_0px_rgba(250,_145,_60,_1)] w-[45%] md:w-[30%] overflow-scroll  md:h-40 border border-foreground rounded-md ">
       <div className="flex flex-col gap-1 p-3">
         <h1 className="text-md">{project.title}</h1>
         <h1 className="text-sm">{project.type}</h1>

@@ -34,6 +34,9 @@ export default function Home() {
             <IoMail />
           </a>
         </div>
+      </div>
+      <div className="flex items-center gap-2">
+
           <p>and </p>
           <a href="https://wa.me/201121680101" target="_blank" className="hover:scale-105 transition-all duration-200">
             <RiWhatsappFill />

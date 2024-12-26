@@ -25,7 +25,7 @@ const page = () => {
     fetchProjects();
   }, []);
   return (
-    <div className="flex gap-3">
+    <div className="flex gap-3 flex-wrap ">
       {loading && <p>Loading projects, please be patient ...</p>}
       {error && <p>{error}</p>}
       {fetchedProjects?.map((project, index) => {
