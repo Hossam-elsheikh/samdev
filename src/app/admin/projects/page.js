@@ -17,6 +17,7 @@ import Auth from "@/components/Auth";
 const page = () => {
   const [projects, setProjects] = useState([]);
   const { isAuth } = useContext(AuthContext);
+  const [error,setError] = useState(null)
   const fetchProjects = async () => {
     const res = await fetch("/api/projects");
     const { projects } = await res.json();
@@ -28,8 +29,7 @@ const page = () => {
   }, []);
 
   const submitData = async (formType, projectData, id) => {
-    projectData.features = projectData.features
-      .split(/[\n,]+/)
+    projectData.features = projectData?.features?.split(/[\n,]+/)
       .map((str) => str.trim());
     projectData.specs = projectData.specs
       .split(/[\n,]+/)
@@ -47,7 +47,7 @@ const page = () => {
       });
       fetchProjects();
     } catch (error) {
-      console.log(error.message);
+      setError(error.message);
     }
   };
 
@@ -66,7 +66,7 @@ const page = () => {
               </DialogTrigger>
               <DialogContent className="h-[70%]">
                 <DialogHeader>
-                  <DialogTitle>Add new Project</DialogTitle>
+                  <DialogTitle>Add new Project - <p className="text-red-500">{error}</p></DialogTitle>
                 </DialogHeader>
                 <ProjectForm formType="Add" addEditProject={submitData} />
               </DialogContent>
@@ -75,7 +75,7 @@ const page = () => {
 
           <hr />
           <h1 className="text-3xl">Projects</h1>
-          <div className="flex gap-3">
+          <div className="flex gap-3 flex-wrap">
             {projects?.map((p, i) => {
               return (
                 <ProjectEdit key={i} project={p} editProject={submitData} />

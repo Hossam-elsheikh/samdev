@@ -12,12 +12,12 @@ export default function layout({ children }) {
     <>
         <div className="flex justify-around gap-5 items-center">
           <div>
-            <h1 className="text-4xl">
+            <h1 className="text-lg md:text-2xl">
               Hello, it's{" "}
               <span className="text-orange-400">Hossam Elsheikh</span>
             </h1>
-            <h1 className="text-3xl">And this is my portfolio!</h1>
-            <h1 className="text-xl">And i know it's pretty simple :D</h1>
+            <h1 className="text-md md:text-xl">And this is my portfolio!</h1>
+            <h1 className="text-sm md:text-md">And i know it's pretty simple :D</h1>
           </div>
 
           <div className=" rounded-full ">

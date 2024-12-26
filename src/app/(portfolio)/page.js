@@ -7,7 +7,7 @@ export default function Home() {
   const emphisize = "text-orange-400 italic";
   return (
     <div>
-      <h1 className="text-xs md:text-md">
+      <h1 className="text-xs md:text-lg">
         My name is <span className={emphisize}>Hossam Elsheikh</span>, and I’m a
         28-year-old <span className={emphisize}>software engineer </span>. As a
         dedicated self-learner, I’ve followed the path of computer science

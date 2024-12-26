@@ -28,9 +28,9 @@ const CourseBox = ({ course, addEditCourse }) => {
     }
   };
   return (
-    <div className="flex flex-col w-80 h-72 overflow-scroll p-3 border border-foreground rounded-md">
+    <div className="flex text-md flex-col w-fit  overflow-scroll p-3 border border-foreground rounded-md">
       <div className="flex justify-between gap-2">
-        <h1 className="text-xl">{course.title}</h1>
+        <h1 className="">{course.title}</h1>
         <div>
           <Dialog open={isDialogOpen} onOpenChange={setDialog}>
             <DialogTrigger>
@@ -66,13 +66,6 @@ const CourseBox = ({ course, addEditCourse }) => {
       <a href={course.link} className="underline text-blue-500" target="_blank">
         Validate
       </a>
-
-      <p className="text-xl italic">Topics covered :</p>
-      <div className="flex flex-col px-5">
-        {course.topics.map((t, i) => (
-          <li key={i}>{t}</li>
-        ))}
-      </div>
     </div>
   );
 };
@@ -138,7 +131,7 @@ const page = () => {
             </Dialog>
           </div>
           <hr />
-          <div className="flex gap-5">
+          <div className="flex gap-5 flex-wrap">
             <p>{fetchMessage}</p>
             {coursesData.map((c) => (
               <CourseBox key={c._id} course={c} addEditCourse={addEditCourse} />

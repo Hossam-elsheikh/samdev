@@ -26,8 +26,8 @@ const ProjectEdit = ({ project, editProject }) => {
     }
   };
   return (
-    <div className="border border-1 border-foreground flex w-64 gap-2 items-center justify-around p-3 rounded-md">
-      <h1 className="text-xl">{project.title}</h1>
+    <div className="border text-md border-1 border-foreground flex w-64 gap-2 items-center justify-around p-3 rounded-md">
+      <h1 className="text-md">{project.title}</h1>
       <Dialog>
         <DialogTrigger>Edit</DialogTrigger>
         <DialogContent className="h-[70%]">

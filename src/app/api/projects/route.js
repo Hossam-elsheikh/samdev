@@ -3,7 +3,7 @@ import Project from "../models/Project";
 export async function GET(req) {
   try {
     await dbConnect();
-    const projects = await Project.find({}).populate('tools');
+    const projects = await Project.find({}).populate("tools");
 
     return new Response(JSON.stringify({ success: true, projects }), {
       status: 200,
@@ -45,6 +45,8 @@ export async function POST(req) {
     } = await req.json();
 
     dbConnect();
+   
+
     console.log("connected");
 
     const newProject = await Project.create({

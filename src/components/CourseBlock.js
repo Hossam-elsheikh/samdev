@@ -27,7 +27,7 @@ const MoreDetails = ({course})=>{
 }
 const CourseBlock = ({course}) => {
   return (
-    <div className='flex flex-col p-3 gap-2 shadow-[5px_5px_0px_0px_rgba(250,_145,_60,_1)] w-full md:w-1/3  md:h-40 border border-foreground rounded-md '>
+    <div className='flex flex-col p-3 gap-2 shadow-[5px_5px_0px_0px_rgba(250,_145,_60,_1)] w-1/2 md:w-1/3  md:h-40 border border-foreground rounded-md '>
         <h1 className='text-md'>{course.title}</h1>
         {/* <p>{formattedDate(course.date)}</p> */}
         <p>By : {course.organization} </p>

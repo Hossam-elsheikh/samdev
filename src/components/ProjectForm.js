@@ -18,7 +18,7 @@ const ProjectForm = ({ formType, project, addEditProject }) => {
     livePreview: project?.livePreview || "",
     icon: project?.icon || "",
     specs: project?.specs.join("\n") || "",
-    tools: project?.tools || [],
+    tools: project?.tools.map(b=>b._id) || [],
   });
   const submitForm = (event) => {
     event.preventDefault();
@@ -28,6 +28,9 @@ const ProjectForm = ({ formType, project, addEditProject }) => {
   };
   const handleCheckboxChange = (event) => {
     const { value, checked } = event.target;
+
+    console.log(projectData.tools);
+    
 
     if (checked) {
       setProjectData({
@@ -157,7 +160,7 @@ const ProjectForm = ({ formType, project, addEditProject }) => {
           <p>Tools</p>
           <div className="flex gap-2 flex-wrap">
             {message && message}
-            {tools?.map((option, index) => (
+            {tools?.map((option) => (
               <div className="flex gap-2" key={option._id}>
                 <input
                   type="checkbox"

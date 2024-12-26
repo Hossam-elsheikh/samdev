@@ -26,9 +26,19 @@ async function dbConnect() {
 
     cached.promise = mongoose
       .connect(MONGODB_URI, opts)
-      .then((mongoose) => {
+      .then(async(mongoose) => {
         console.log('database connected');
-        
+        const collection = mongoose.connection.collection('projects');
+        try {
+          await collection.dropIndex('type_1'); // Replace 'type_1' with the actual index name if different
+          console.log('Index type_1 dropped successfully');
+        } catch (err) {
+          if (err.codeName === 'IndexNotFound') {
+            console.log('Index type_1 not found, skipping drop');
+          } else {
+            console.error('Error dropping index:', err);
+          }
+        }
         return mongoose;
       })
       .catch((err) => console.log(err));

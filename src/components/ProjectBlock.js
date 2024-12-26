@@ -13,7 +13,7 @@ import {
 } from "./ui/dialog";
 import Image from "next/image";
 const MoreDetails = ({ project }) => {
-  const emph = "text-[#fa913c] text-sm";
+  const emph = "text-[#fa913c] text-sm"
   return (
     <div className="flex flex-col gap-3 overflow-scroll">
       <p>
@@ -24,13 +24,16 @@ const MoreDetails = ({ project }) => {
       </p>
       <div className="flex items-center flex-wrap gap-2">
         <span className={emph}>Tools </span>:
-        {project.tools.map((t,i) => {
+        {project.tools.map((t, i) => {
           return (
-            <div key={i} className="flex items-center gap-2 p-2 border border-foreground px-3 rounded  text-sm justify-between">
+            <div
+              key={i}
+              className="flex items-center gap-2 p-2 border border-foreground px-3 rounded  text-sm justify-between"
+            >
               <p>{t.title}</p>
               <Image
                 key={t._id}
-                src={t.svg}
+                src={t.svg || null}
                 width="25"
                 height="30"
                 alt={t.title}
@@ -39,11 +42,11 @@ const MoreDetails = ({ project }) => {
           );
         })}
       </div>
-      {project.contributers && 
-      <div>
-        <span className={emph}>Contributers </span>:
-      </div>
-      }
+      {project.contributers && (
+        <div>
+          <span className={emph}>Contributers </span>:
+        </div>
+      )}
       <div className="flex flex-col gap-3">
         <span className={emph}>Features </span>
         {project.features.map((f, i) => {
@@ -51,9 +54,9 @@ const MoreDetails = ({ project }) => {
           return (
             <div className="flex flex-col" key={i}>
               <p>{f}</p>
-              <img src={spec} />
+              <img src={spec || null} />
             </div>
-          )
+          );
         })}
       </div>
     </div>
@@ -61,14 +64,13 @@ const MoreDetails = ({ project }) => {
 };
 const ProjectBlock = ({ project }) => {
   return (
-    <div className="flex gap-2 shadow-[5px_5px_0px_0px_rgba(250,_145,_60,_1)] w-1/3  md:h-40 border border-foreground rounded-md ">
+    <div className="flex gap-2 shadow-[5px_5px_0px_0px_rgba(250,_145,_60,_1)] w-1/2 md:w-1/3  md:h-40 border border-foreground rounded-md ">
       <div className="flex flex-col gap-1 p-3">
         <h1 className="text-md">{project.title}</h1>
         <h1 className="text-sm">{project.type}</h1>
         <p className="">{formattedDate(project.date)}</p>
 
         <div className="flex text-sm gap-2 items-center">
-          
           <a
             href={project.gitLink}
             className="hover:scale-105 transition-transform duration-200"
@@ -86,18 +88,18 @@ const ProjectBlock = ({ project }) => {
             </a>
           )}
         </div>
-          <Dialog>
-            <DialogTrigger>
-              <p className=" underline text-left text-xs">more details</p>
-            </DialogTrigger>
-            <DialogContent className="max-h-[70%] overflow-scroll">
-              <DialogHeader>
-                <DialogTitle>{project.title}</DialogTitle>
-                <DialogDescription>...</DialogDescription>
-              </DialogHeader>
-              <MoreDetails project={project} />
-            </DialogContent>
-          </Dialog>
+        <Dialog>
+          <DialogTrigger>
+            <p className=" underline text-left text-xs">more details</p>
+          </DialogTrigger>
+          <DialogContent className="max-h-[70%] overflow-scroll">
+            <DialogHeader>
+              <DialogTitle>{project.title}</DialogTitle>
+              <DialogDescription>...</DialogDescription>
+            </DialogHeader>
+            <MoreDetails project={project} />
+          </DialogContent>
+        </Dialog>
       </div>
     </div>
   );
